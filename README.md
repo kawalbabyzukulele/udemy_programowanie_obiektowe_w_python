@@ -7,3 +7,4 @@ ex. 3.10.py - The exercise was about creating a class Library with methods and a
 
 ex. 4.14.py - This exercise lies in inheritance. I had to create four classes with specific atributes and methods. 
 
+ex. 5.22.py - Short exercise using __eq__ method. The program compares class MineralWater objects in terms of self.sodium and self.calcium atributes.
