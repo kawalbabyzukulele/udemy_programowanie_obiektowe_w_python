@@ -1,7 +1,9 @@
 import datetime
 
+
 class CustomDate:
     custom_date_objects = []
+    
     def __init__(self, day, month, year):
         self.day = day
         self.month = month
@@ -12,7 +14,6 @@ class CustomDate:
             raise ValueError("To nie przejdzie")
         self.date = "{}-{}-{}".format(self.day, self.month, self.year)
         CustomDate.custom_date_objects.append(self)
-
 
     def straight_date(self):
         if len(str(self.day)) == 1:
@@ -31,7 +32,6 @@ class CustomDate:
         except:
             raise ValueError("To nie przejdzie")
 
-
     @classmethod
     def dates_from_file(cls, file_name):
         with open(file_name, 'r') as open_file:
@@ -47,9 +47,6 @@ class CustomDate:
                 raise ValueError("To nie przejdzie")
             finally:
                 continue
-
-
-
 
 
 a = CustomDate(29, 3, 1999)
