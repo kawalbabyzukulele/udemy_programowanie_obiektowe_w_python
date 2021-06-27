@@ -10,3 +10,5 @@ ex. 4.14.py - This exercise lies in inheritance. I had to create four classes wi
 ex. 5.22.py - Short exercise using __eq__ method. The program compares class MineralWater objects in terms of self.sodium and self.calcium atributes.
 
 ex. 6.26.py - This exercise is about creating CustomDate objects by three ways. 
+
+ex. 7.31.py - The exercise is my first encounter with polymorphism in Python.
